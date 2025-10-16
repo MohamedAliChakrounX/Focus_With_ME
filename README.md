@@ -1,72 +1,70 @@
 # 🎯 Focus With Me
 
-> **Focus With Me** est une application web qui aide les étudiants et professionnels à **améliorer leur concentration** grâce à une analyse intelligente en temps réel et à un tableau de bord interactif.
+> **Focus With Me** is a web application that helps students and professionals **improve their concentration** through **real-time intelligent analysis** and an **interactive dashboard**.
 
 ---
 
-## 🚀 Aperçu du projet
+## 🚀 Project Overview
 
-L’application utilise la **vision par ordinateur** et l’**intelligence artificielle** pour **analyser le niveau de concentration** des utilisateurs à partir de la caméra.
-Elle fournit un **tableau de bord web** qui affiche des statistiques claires sur l’évolution de la concentration au fil du temps.
-
----
-
-## ✨ Fonctionnalités principales
-
-* 🔍 **Analyse de concentration en temps réel**
-
-  * Détection des comportements liés à la baisse d’attention : perte de focus, distractions.
-
-* 📊 **Tableau de bord web**
-
-  * Graphiques et courbes représentant l’évolution du niveau de concentration.
-
-* 🤝 **Coworking virtuel**
-
-  * Possibilité de rejoindre un espace virtuel pour travailler avec d’autres utilisateurs.
-
-* 🤖 **Assistant intelligent**
-
-  * Conseils personnalisés basés sur les données de concentration.
+The application uses **computer vision** and **artificial intelligence** to **analyze users’ concentration levels** via the webcam.
+It provides a **web dashboard** displaying clear statistics on focus evolution over time.
 
 ---
 
-## 🖼️ Captures d’écran
+## ✨ Key Features
 
-| Page d’accueil                   | Dashboard                               | Analyse en direct                    |
-| -------------------------------- | --------------------------------------- | ------------------------------------ |
-| ![Accueil](demo/images/home.png) | ![Dashboard](demo/images/dashboard.png) | ![Espace Collaboratif](demo/images/espace_collaboratif.png) |
+* 🔍 **Real-time Focus Analysis**
 
----
+  * Detects behaviors related to loss of attention such as distractions or lack of focus.
 
-## 🎥 Démo vidéo
+* 📊 **Interactive Dashboard**
 
-👉 [Regarder la démonstration sur YouTube](https://youtu.be/fUE1tAz2DtE)
+  * Displays charts and graphs showing concentration trends.
 
+* 🤝 **Virtual Coworking**
 
+  * Join a virtual workspace to focus alongside other users.
 
----
+* 🤖 **Smart Assistant**
 
-## 🛠️ Technologies utilisées
-
-* **Frontend** : Angular, TailwindCSS
-* **Backend** : Python (FastAPI)
-* **IA / Vision par ordinateur** : PyTorch, OpenCV (détection du niveau de concentration)
-* **Base de données** : Mongodb
-* **Autres** : Chart.js / Recharts pour les statistiques
+  * Offers personalized advice based on concentration data.
 
 ---
 
-## ⚙️ Installation & exécution
+## 🖼️ Screenshots
 
-### Cloner le projet
+| Home Page                     | Dashboard                               | Live Analysis                                               |
+| ----------------------------- | --------------------------------------- | ----------------------------------------------------------- |
+| ![Home](demo/images/home.png) | ![Dashboard](demo/images/dashboard.png) | ![Collaborative Space](demo/images/espace_collaboratif.png) |
+
+---
+
+## 🎥 Video Demo
+
+👉 [Watch the demonstration on YouTube](https://youtu.be/fUE1tAz2DtE)
+
+---
+
+## 🛠️ Technologies Used
+
+* **Frontend**: Angular, TailwindCSS
+* **Backend**: Python (FastAPI)
+* **AI / Computer Vision**: PyTorch, OpenCV (focus level detection)
+* **Database**: MongoDB
+* **Others**: Chart.js / Recharts for data visualization
+
+---
+
+## ⚙️ Installation & Run
+
+### Clone the project
 
 ```bash
-git clone https://github.com/ton-compte/focus-with-me.git
+git clone https://github.com/your-account/focus-with-me.git
 cd focus-with-me
 ```
 
-### Installer et lancer le frontend
+### Install and run the frontend
 
 ```bash
 cd frontend
@@ -74,7 +72,7 @@ npm install
 ng serve
 ```
 
-### Installer et lancer le backend
+### Install and run the backend
 
 ```bash
 cd backend
@@ -84,20 +82,22 @@ uvicorn main:app --reload
 
 ---
 
-## 📊 Améliorations futures
+## 📊 Future Improvements
 
-* Gamification avec points et badges.
-* Intégration de calendrier (Google Calendar, Outlook).
-* Optimisation de la précision du modèle de détection de concentration.
-* Version responsive mobile.
+* Gamification with points and badges.
+* Calendar integration (Google Calendar, Outlook).
+* Improved model accuracy for focus detection.
+* Responsive mobile version.
 
 ---
 
-## 👨‍💻 Auteur
+## 👨‍💻 Author
 
-Développé par **Mohamed Ali Chakroun**
+Developed by **Mohamed Ali Chakroun**
 
-* 📧 Email : [mohamedalichakroun.x@gmail.com](mohamedalichakroun.x@gmail.com)
+* 📧 Email: [mohamedalichakroun.x@gmail.com](mailto:mohamedalichakroun.x@gmail.com)
 * 💼 [LinkedIn] ([https://www.linkedin.com/in/mohamed-ali--chakroun](https://www.linkedin.com/feed/))
+
+
 
 
