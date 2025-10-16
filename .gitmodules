@@ -1,0 +1,3 @@
+[submodule "Backend/Model1"]
+	path = Backend/Model1
+	url = https://github.com/MohamedAliChakrounX/Focus_With_Me_Model1.git
